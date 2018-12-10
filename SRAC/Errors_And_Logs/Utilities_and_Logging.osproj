@@ -15,7 +15,7 @@
     <!-- Custom properties -->
     <Name>Utilities_and_Logging</Name>
     <Id>Project-8D6544C5562EB73</Id>
-    <Version>8.0.1072.0</Version>
+    <Version>8.0.1082.0</Version>
     <TransformationVersion>8.0.1026.0</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
@@ -81,7 +81,7 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Automation">
+    <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
     </Reference>
@@ -124,13 +124,16 @@
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Data">
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Drawing">
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <Reference Include="System.IO.Compression, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\System.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -140,11 +143,11 @@
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan">
+    <Reference Include="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Runtime.Core">
+    <Reference Include="OpenSpan.Runtime.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>

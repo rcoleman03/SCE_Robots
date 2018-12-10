@@ -5,6 +5,7 @@
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73" />
@@ -55,6 +56,12 @@
             <param name="zipFileName" aliasName="zipFileName" paramType="System.String" isIn="False" isOut="False" position="0" />
             <param name="password" aliasName="password" paramType="System.String" isIn="False" isOut="False" position="1" />
             <param name="folderToZip" aliasName="folderToZip" paramType="System.String" isIn="False" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="GetRecentDownload" aliasName="GetRecentDownload" visibility="DefaultOn" source="" blockTypeName="" returnType="System.String" />
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="DownloadsFolderPath" aliasName="DownloadsFolderPath" visibility="DefaultOn" source="" blockTypeName="" returnType="System.String" />
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="MoveFile" aliasName="MoveFile" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Boolean">
+            <param name="sourcePath" aliasName="sourcePath" paramType="System.String" isIn="False" isOut="False" position="0" />
+            <param name="newPath" aliasName="newPath" paramType="System.String" isIn="False" isOut="False" position="1" />
           </OpenSpan.DynamicMembers.DynamicMethodInfo>
         </Items>
       </Content>

@@ -1,8 +1,8 @@
 <DeploymentManifest version="5.0">
   <CompositeStudioProject name="Utilities_and_Logging" fileName="Errors_And_Logs.dll" assemblyName="Errors_And_Logs.dll" id="Project-8D6544C5562EB73" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="10DC8342BFCA48D1A53D0B4D98D53C">
     <Assemblies>
-      <Assembly value="Errors_And_Logs.dll" digest="7F2ECE8E7DE2BEEFC05B8BAE9EDAE0" />
-      <Assembly value="Errors_And_Logs.pdb" digest="AFE516581C102BEAF2CC0F62B63068" />
+      <Assembly value="Errors_And_Logs.dll" digest="19A9FDBEF6D77E0B3B417E68253501" />
+      <Assembly value="Errors_And_Logs.pdb" digest="933BDB4B405C0C159296746AD46641" />
     </Assemblies>
   </CompositeStudioProject>
 </DeploymentManifest>

@@ -12,10 +12,10 @@
 			-->
     <email mode="off" subject="Exception Information" server="" from="" to="" />
     <logController mode="on" />
-    <publisher mode="on" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.FilePublisher" fileName="RuntimeLog.txt" filesToKeep="1" initMode="ClearLog" />
-    <publisher mode="on" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.TracePublisher" fileName="STDiagnosticLog.txt" txtOutput="off" xmlOutput="on" deleteLogs="on" logProcessorProgress="on" logProcessor="on" />
-    <publisher mode="on" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.OutputWindowPublisher" />
-    <publisher mode="on trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.Log4NetPublisher">
+    <publisher mode="off" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.FilePublisher" fileName="RuntimeLog.txt" filesToKeep="1" initMode="ClearLog" />
+    <publisher mode="off" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.TracePublisher" fileName="STDiagnosticLog.txt" txtOutput="off" xmlOutput="on" deleteLogs="on" logProcessorProgress="on" logProcessor="on" />
+    <publisher mode="off" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.OutputWindowPublisher" />
+    <publisher mode="off" trace_mode="on" exception_mode="on" assembly="OpenSpan" type="OpenSpan.Diagnostics.Publishers.Log4NetPublisher">
       <!-- Settings for Runtime Log4Net logging -->
       <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender, log4net">
         <!-- Name to save the log file to -->
@@ -248,7 +248,7 @@
     <MenuItem item="Separator" show="true" />
     <MenuItem item="ExpectedHours" label="Update Expected &amp;Hours" show="true" />
     <MenuItem item="Separator" show="true" />
-    <MenuItem item="RPACredentials" label="Enter RPA Credentials..." show="true" />
+    <MenuItem item="RPACredentials" label="Enter RPA Credentials..." show="false" />
     <MenuItem item="Separator" show="true" />
     <MenuItem item="Exit" label="E&amp;xit" show="true" />
   </RuntimeTrayMenu>
