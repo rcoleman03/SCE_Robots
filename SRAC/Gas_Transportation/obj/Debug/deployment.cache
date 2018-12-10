@@ -1,0 +1,12 @@
+<Cache>
+  <References>
+    <Reference value="..\Master_ExcelSheet\bin\Debug\Master_ExcelSheet.dll" />
+    <Reference value="C:\Users\Dipesh\Downloads\SCE-SRAC\SRAC (4)\SRAC\Errors_And_Logs\bin\Debug\Errors_And_Logs.dll" />
+  </References>
+  <Translators>
+    <Translator value="OpenSpan.Adapters.Virtual.dll" />
+  </Translators>
+  <BuildReferences>
+    <BuildReference value="RuntimeConfig.xml" />
+  </BuildReferences>
+</Cache>

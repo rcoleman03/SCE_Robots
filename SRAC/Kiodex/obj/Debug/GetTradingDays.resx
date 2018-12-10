@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_GetTradingDays_1_" xml:space="preserve">
+    <value>OSVSX0gIAALVSTWvDMAz9K6bn0KRdsyaQFNqUwdhhYy29244CZrIU/HHwv9962EZoGT2s6CIkvfck8ZqO7cgEFJ5p4E1zTCOIk8QI7ex1BDqMkubbGNjKYPgnZTcT+abZeg9WYfoDMZl7hwEckAZ/ibVes0OjMnEC57+Q7WpenCMTXcQQHbQEMTiJmXiLCo1+gXTkD6BWrdey1OXjon5YQVHVV3c7JB/A3ov9+/Jf/upW/qHsVb2AXhfLvtIl3PrZu0t1TMEx+v8Syq/ZYJ9IWqMvW2fEk0GYVnbRYD8t5VMLfwI=</value>
+  </data>
+  <data name="_GetTradingDays_2_" xml:space="preserve">
+    <value>OSVSXTwEAAG2QwU7DMAyGXyXyA2RwbysBGxIH6KTujrLMFIvGqWJnIm9P0yIkBLf4s//ki5tn1Pd4MZfCLpA/lRlb2BiYBS3V64E1lWMk1sMn+qwIxk3k5GVt/7ArCZ1pIi0t7PHN5Ul7BiMxJ7/MgTlP0X/UF7ZgPyMPs2N7lzUGpxTZ7lFoZPsQmdFXcl8zYv8orBxMQs2JN+uhiGKwgybiEbpmdsmF7z+s59tf3gFF3Lh4r73/rjAkT9zCo5sEa9FnbeGUcs1EoarXwg2YXdfstpV1Xw==</value>
+  </data>
+  <data name="_GetTradingDays_3_" xml:space="preserve">
+    <value>OSVSXxQAAAFWOQQrCMBBFrxLmAHoBI7gRVyJtwfU0GXQwTcpkosTTGytduHz/z/vM7iJpJtFqfI04sRvqTBbWFEwLG3eUS1AwDmNH6C0MUmjBq7DSyrrIfc1K06ZX4XgDg4Exn/9m8j2V4HsSbuW7FUcMuflPzjxyYK0WDuGFNZ/Ye4rNSEVcOwQzhuQe3y9/k2C2+w8=</value>
+  </data>
+  <data name="_GetTradingDays_4_" xml:space="preserve">
+    <value>OSVSXxwAAAEWOQQrCQAxFrzLkAIp7K7gRVyK24DqdCTU4My3JVBlPb6yIy//z/iPbs4wTSaku1IyJfVcnauDXgrPS8oSCaQPOY74QhgY6mWmJV+FiwAGjWlGWdVu1UFq1RTgP4DAy6mnxJFLFwUC9jXMMLQnb9fUXPFi558ilNrCPT6x65BAo22KcxRsIro+jv3/+/DrBrXdv</value>
+  </data>
+  <data name="_GetTradingDays_5_" xml:space="preserve">
+    <value>OSVSXKQEAAEWQX0tDMQzFv0ro82VuwmCCFcaGCIoOd9FHSduIYblt6R+lfnq76ZA8nXOSH4dc71KIlEoD1zxObMcWSauzq6CbXb9FTDgtFFj0z4ROqzFVOsnXxIXOuvTrdc40GWlaPUXy+4h+gBdKmYPXq9n8OANsqpSaSHuqJaEMsKtG2N5TG8OBvH5fOnO1IGfnl25ll3/of+RsE0TIlg5VgMKYH09Ft1jogXNRkD9CFbenxD3+7tEtSu6cT85sWLj0gmv5wpbv2DnqmBxqsn1RgZFgD8dP/EIVXNz8AA==</value>
+  </data>
+  <data name="_GetTradingDays_6_" xml:space="preserve">
+    <value>OSVSXCQEAAF2PzQrCQAyEXyXkAVQ8twVB/AF/DhavknYXDW53yyZV9u1drRe9ZWaS+Uixt3oLBkzy1HFbp96WOHoI2cpqHeqwo8Y6BHJMcvh3HyzcsGNNJS7ck5Js2BjrESQMsc3LCI0L7f3dPl4jRKtD9CPvlERtNzkHNlgVPUXqvuzLR8x/yEtSu2NRhE/4U3HSyP6KwLL1JdZxsO/5OGiJK3KSVR+ElUNOZwjTqpiOz1Yv</value>
+  </data>
+  <data name="_GetTradingDays_7_" xml:space="preserve">
+    <value>OSVSXyAAAADWO0QrCMAxFf6XkAxR8doIg4oOIuIGPkrVBg1070lSpX2+d7PHcm3vI+ixxJNFiXAk4sO3KSA3MKZgaVr6NKDiswFgMF0LXQCeZJrwKK82s07otSWlYtCoc7mDQM6bT5Nmh0pGTgkmPmL1rSbjWn1rt0adqeHHinj1raWDr31jSgZ2jUBcxi62HYHof7fP36F8KZrn5Ag==</value>
+  </data>
+  <data name="_GetTradingDays_8_" xml:space="preserve">
+    <value>OSVSXCAEAAF1Pyw7CMAz7lSgfwOC+TeLCQ+Jx2MQVZWsEEV07NR2of8/GuMAttmNbzo8c796ASY46aevUc4EzhzBSI9r62h+oYYtAVkhP/+xTVBqxElOBa/uipDsxhh2C+iG04zNCY337mNJnN0LgOAQ391VJI3eLixeDZd5ToO7bff2A1U9zx6p0Y4SP9pNQxSDuhiC6dwXWYeDpPg+xwA1ZnTxeJYof1SVCVubZvLV8Aw==</value>
+  </data>
+  <data name="_GetTradingDays_9_" xml:space="preserve">
+    <value>OSVSXxwAAADWOTQrCMBCFrxLmAIp7K7gRVyK24FKmyaCDSVpmUiWe3rHS5fveD297lmEkKdWFmjGx7+pIDSwUnEHTtxEF0wacx3whDA10MtEsr8KFFl3mdlu1UFq1RTjfwWFk1NO8k0gV7xbUxzDF0JKwuR9zDhjV+IuVe45cagP7+MaqRw6BsjWGSbwFwfVx8M/fz/8muPXuCw==</value>
+  </data>
+  <data name="_GetTradingDays_10_" xml:space="preserve">
+    <value>OSVSXwgAAAFWOwQ7CMAxDf6XKB8APME6II6BtEuesCxDRtVOaIpWvJwztwNH2s+XdRdJMotWNNeLEvq8zNbC64Mw03VIuQcF5jC3h2EAvhRZ5FVZatS7lrmaladOpcLyDw8CYT38z+ZFKGDsStvBtwRFDtv6LMw8cWGsDB7qhwedoeCrijQI3hOSf34u/PXDb/Qc=</value>
+  </data>
+  <data name="_GetTradingDays_11_" xml:space="preserve">
+    <value>OSVSXxgAAADWOTQrCMBCFrxLmAIp7K7gRVyK24HqaDHUwSctMqsTTO1a6fN/74e2vMk4kpbpQMyb2XZ2ogZWCM2h6QsG0A+cx3whDA53MtMi7cKFVl6XcVi2UNm0RzgM4jIx6WWYSqeJgQX2McwwtCZv7MeeEUY2/WLnnyKU2cIxvrHrmEChbY5zFWxBcH0f//N38b4LbHr4=</value>
+  </data>
+  <data name="_GetTradingDays_12_" xml:space="preserve">
+    <value>OSVSXxQAAAFWOQQoCMQxFr1JyAMW9FdyIKxFnwHWmDRrstEPaKvX0xpFZuHz/532yPUuaSEozvkUc2fVtIgtLCkZD5QkFxw0Yh/FC6C30UmnGq3Chhcssdy0XGlddEY43MBgY8+lvJt9TDb4jYS3fWhwwZPWfnHngwKVZ2IcXtnxk7ymqkao4PQQzhOQe3y9/k2DWuw8=</value>
+  </data>
+  <data name="_GetTradingDays_13_" xml:space="preserve">
+    <value>OSVSXwwAAAFWOQQ7CMAwEvxL5AfAByglxBNRW4uymBizSpHIcpPB6TBFCHHc8u/LmJGkm0erGGnFi39eZGvhScAYtt5RLUHAeY0s4NtBLoSWehdWEPYZsQJd2V7PStOpUOF7BYWDMh7+dfEsljB0J2/H56z8488CBtTawowuafIympyLeLHBDSP7+/vGzB269fQE=</value>
+  </data>
+  <data name="_GetTradingDays_14_" xml:space="preserve">
+    <value>OSVSXxAAAAFWOQQrCQAxFrzLkAHoB60LEpUpbcJ3ORAymnTKZEcbTGysiLv/P+49szinOlHJ1oU44su/rTA18W3BWWm5Ji2RwHqeWMDTQp0JLvCTOBhxQ1Iq8rLuqmcbVLkYhnMChMOrxT6S3WCR0lNiOz5/gwcoDC+fawJ6uaPDJDBpL8kaBGyT6+/vJjw/cevsC</value>
+  </data>
+  <data name="_GetTradingDays_15_" xml:space="preserve">
+    <value>&lt;SerializedParamsDefaultValues&gt;&lt;list0 defaultValue="TradingDays calendar does not exist at: " /&gt;&lt;/SerializedParamsDefaultValues&gt;</value>
+  </data>
+  <data name="_GetTradingDays_16_" xml:space="preserve">
+    <value>OSVSXugAAAGWNMQ7CMAxFr2L5AEXsFKlDpE4wwF65iQeL1ImatDS3p6ELEpv/0/9+F7OyZnBFaRL7LJFb/CKEnexhMJvlmCXoGYG8ULr981WSjOIllxY7/6aSenGOFSGFZbZ7HWH0wb6q4NgjcNX0pM7zfIjvkfURSZtuyWGi+rwxG9ulXuanjnC6fgA=</value>
+  </data>
+  <data name="_GetTradingDays_17_" xml:space="preserve">
+    <value>OSVSX5gEAAI1RW0vDMBT+KyHPpd2EwYSmUETYEHTYMh8llzM8LE1KLmr89aZq54M+lLzkO+fLdyH1wdkRXEhEJcMHlH0agdF5SkkeZvx8+y5hDGjNmhLJzSNwxWjvInzBJ4cBZhyyQus9DEInRh9GMN3ITdnGYAc+SRTkCM7nC9uWq+kU5CbqEB0wAzE4rgtyiEKjvIPU2zMYdtoocb0GJVdXais3Py7/qpeXqFOVvTlZSrhG7u//NvEvNmrVgcPM+Lg0eEWPAjWGnL/Vbzz5HSoFJj+w0cnMo0RoK8+Tw7csbepFWRbSyJHrmGW75AMMv3tKqqauFjpV8y82nw==</value>
+  </data>
+  <data name="_GetTradingDays_18_" xml:space="preserve">
+    <value>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</value>
+  </data>
+</root>

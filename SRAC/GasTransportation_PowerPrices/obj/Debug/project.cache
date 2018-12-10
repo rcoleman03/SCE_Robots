@@ -1,0 +1,8 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="GlobalContainer-8D65510AE4F3095" className="GC_Main" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D653BA55CEFE78" className="Project_Started" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D6545F76750304" className="Terminate_Runtime" type="Automation" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

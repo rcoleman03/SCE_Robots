@@ -1,0 +1,18 @@
+<Root>
+<!-- This file contains configurable values used in the SRAC robotic automation-->
+<!-- Make sure that local directories of files to be downloaded are already created-->
+
+	<G-CP_PDF>C:\Robot_Reference_Data\SRAC\Data\G-CP.pdf</G-CP_PDF>
+	<G-BTS_PDF>C:\Robot_Reference_Data\SRAC\Data\G-BTS.pdf</G-BTS_PDF>
+	<G-MSUR_PDF>C:\Robot_Reference_Data\SRAC\Data\G-MSUR.pdf</G-MSUR_PDF>
+	<GT-TLS_PDF>C:\Robot_Reference_Data\SRAC\Data\GT-TLS.pdf</GT-TLS_PDF>
+	
+	<G-CP_URL>https://socalgas.com/regulatory/tariffs/tm2/pdf/G-CP.pdf</G-CP_URL>
+	<G-BTS_URL>https://socalgas.com/regulatory/tariffs/tm2/pdf/G-BTS.pdf</G-BTS_URL>
+	<G-MSUR_URL>https://socalgas.com/regulatory/tariffs/tm2/pdf/G-MSUR.pdf</G-MSUR_URL>
+	<GT-TLS_URL>https://socalgas.com/regulatory/tariffs/tm2/pdf/GT-TLS.pdf</GT-TLS_URL>
+
+	<TradingDaysPath>C:\Robot_Reference_Data\SRAC\TradingDays.txt</TradingDaysPath>
+	<KiodexDownloads>C:\Robot_Reference_Data\SRAC\Kiodex</KiodexDownloads>
+
+</Root>

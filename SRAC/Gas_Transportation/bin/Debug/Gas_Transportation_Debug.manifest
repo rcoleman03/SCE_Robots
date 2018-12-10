@@ -1,0 +1,10 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="Gas_Transportation" fileName="Gas_Transportation.dll" assemblyName="Gas_Transportation.dll" id="Project-8D653BB6846410B" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="A1F7CDE8FDA7DD4AB628ABBCE2F00F">
+    <Assemblies>
+      <Assembly value="Gas_Transportation.dll" digest="FE81B86FE7DEFEAA903E26DE615A93" />
+      <Assembly value="Gas_Transportation.pdb" digest="A03C7679CAAEC47F6F18805D7A98CF" />
+      <Assembly value="Master_ExcelSheet.dll" digest="5093B57956518310A868396ACE22AE" />
+      <Assembly value="Errors_And_Logs.dll" digest="7F2ECE8E7DE2BEEFC05B8BAE9EDAE0" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

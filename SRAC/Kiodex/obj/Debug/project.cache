@@ -1,0 +1,75 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="GlobalContainer-8D655E16D949ADB" className="GC_Kiodex" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D655DCD5EA9761" className="Pull_All_Kiodex" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D655DD58ACDB18" className="Download_Table_Entries" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D655E155971756" className="GetTradingDays" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D65549B846B90D" className="NavTo_MarketDataReports" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D655DE51ECD541" className="RefreshTable_UntilReady" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="BooleanExpression-8D655DF01F2851C" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="BooleanExpression-8D655E085787261" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D655E588E4CDA2" className="Run_All_Reports" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="BooleanExpression-8D655EFAACD7E3D" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="WebAdapter-8D655465DD26A11" className="Web_Kiodex" type="Adapter" isPublic="True" screenShots="Web_Kiodex.screenshots.resx">
+      <Translators>
+        <Translator value="OpenSpan.WinInet.x32.dll" />
+        <Translator value="OpenSpan.WinInet.x64.dll" />
+      </Translators>
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="OpenSpan.ActiveX.x32.dll" />
+        <BuildReference value="OpenSpan.ActiveX.x64.dll" />
+        <BuildReference value="OpenSpan.Brokers.Windows.x32.dll" />
+        <BuildReference value="OpenSpan.Brokers.Windows.x64.dll" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.Native.IPC.x32.dll" />
+        <BuildReference value="OpenSpan.Native.IPC.x64.dll" />
+        <BuildReference value="OpenSpan.RemoteFunctions.x32.dll" />
+        <BuildReference value="OpenSpan.RemoteFunctions.x64.dll" />
+        <BuildReference value="OpenSpan.Scout.x32.dll" />
+        <BuildReference value="OpenSpan.Scout.x64.dll" />
+        <BuildReference value="OpenSpan.Security.x32.dll" />
+        <BuildReference value="OpenSpan.Security.x64.dll" />
+        <BuildReference value="OpenSpan.SharedMemory.x32.dll" />
+        <BuildReference value="OpenSpan.SharedMemory.x64.dll" />
+        <BuildReference value="OpenSpan.Sinon.x32.dll" />
+        <BuildReference value="OpenSpan.Sinon.x64.dll" />
+        <BuildReference value="OpenSpan.Translators.InternetExplorer.x32.dll" />
+        <BuildReference value="OpenSpan.Translators.InternetExplorer.x64.dll" />
+        <BuildReference value="OpenSpan.Utilities.x32.dll" />
+        <BuildReference value="OpenSpan.Utilities.x64.dll" />
+        <BuildReference value="OpenSpan.WER.x32.dll" />
+        <BuildReference value="OpenSpan.WER.x64.dll" />
+        <BuildReference value="OpenSpan.WinInet.x32.dll" />
+        <BuildReference value="OpenSpan.WinInet.x64.dll" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+      </BuildReferences>
+    </DesignComponent>
+  </DesignComponents>
+</Cache>

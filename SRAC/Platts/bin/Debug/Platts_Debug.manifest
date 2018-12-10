@@ -1,0 +1,9 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="Platts" fileName="Platts.dll" assemblyName="Platts.dll" id="Project-8D6548AB83F7FAC" version="8.0.1082.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="55E6DD9F3C7C71B795586611E8721D">
+    <Assemblies>
+      <Assembly value="Platts.dll" digest="DAED4769C107A671B0DD3699695A1A" />
+      <Assembly value="Platts.pdb" digest="38D6CF22DCF3ABD8ED6F3A832CA66A" />
+      <Assembly value="Errors_And_Logs.dll" digest="7F2ECE8E7DE2BEEFC05B8BAE9EDAE0" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>
