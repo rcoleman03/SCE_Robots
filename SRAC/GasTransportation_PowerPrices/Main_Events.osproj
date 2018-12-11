@@ -15,7 +15,7 @@
     <!-- Custom properties -->
     <Name>Main_Events</Name>
     <Id>Project-8D653B92D59ACEE</Id>
-    <Version>8.0.1072.0</Version>
+    <Version>8.0.1082.0</Version>
     <TransformationVersion>8.0.1026.0</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
@@ -73,35 +73,35 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="OpenSpan.Adapters">
+    <Reference Include="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Virtual">
+    <Reference Include="OpenSpan.Adapters.Virtual, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Virtual.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Web">
+    <Reference Include="OpenSpan.Adapters.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Web.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Web.Universal">
+    <Reference Include="OpenSpan.Adapters.Web.Universal, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Web.Universal.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Web.WebBase">
+    <Reference Include="OpenSpan.Adapters.Web.WebBase, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Web.WebBase.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Adapters.Windows">
+    <Reference Include="OpenSpan.Adapters.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.ApplicationFramework">
+    <Reference Include="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Automation">
+    <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
     </Reference>
@@ -148,11 +148,11 @@
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan">
+    <Reference Include="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Runtime.Core">
+    <Reference Include="OpenSpan.Runtime.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -192,6 +192,11 @@
     <ProjectReference Include="..\Platts\Platts.osproj">
       <Name>Platts</Name>
       <Project>{b4bf66c5-664a-4d6b-a186-02739a6fefd4}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Tullet_Liberty\Tullet_Liberty.osproj">
+      <Name>Tullet_Liberty</Name>
+      <Project>{b6457ca4-2896-4371-94c2-a2a91728d8ea}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>

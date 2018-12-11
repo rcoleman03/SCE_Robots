@@ -191,7 +191,7 @@
       <SubType>Component</SubType>
       <Id>Automator-8D6544C6D674CF5</Id>
     </Compile>
-    <Compile Include="LastMonths_TradingDays.os">
+    <Compile Include="LastMonth_TradingDays.os">
       <SubType>Component</SubType>
       <Id>Automator-8D65F4927D398D7</Id>
     </Compile>
