@@ -9,6 +9,7 @@
       <Assembly Value="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Office, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Script, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -16,9 +17,6 @@
   </ComponentInfo>
   <Component Version="1.0">
     <OpenSpan.Automation.GlobalContainer Name="GC_Platts" Id="GlobalContainer-8D659EE1BDFD27F" />
-    <OpenSpan.Controls.StringVariable Name="downloadpath" Id="StringVariable-8D659EE22C43849">
-      <Value Value="C:\Users\Dipesh\Downloads\SCE-SRAC\platts download" />
-    </OpenSpan.Controls.StringVariable>
     <OpenSpan.Controls.StringUtils Name="stringUtils1" Id="StringUtils-8D659EE2768D886" />
     <OpenSpan.Office.MicrosoftExcel Name="Excel_Platts" Id="MicrosoftExcel-8D65B5D9294BCC0">
       <StartOnProjectStart Value="False" />
@@ -26,7 +24,39 @@
       <Workbook Value="C:\Users\tandonp\Downloads\Platts_Market_Data_FDC_hist-2018-12-06-18-44-33\FDC.xlsx" />
     </OpenSpan.Office.MicrosoftExcel>
     <OpenSpan.Controls.DateTimeUtil Name="dateTimeUtil1" Id="DateTimeUtil-8D65B5FBC207B2E" />
-    <OpenSpan.Controls.Pause Name="pause1" Id="Pause-8D65C48C662036A" />
+    <OpenSpan.Script.Custom.Script Name="scriptZipUnzip" Id="Script-8D65B7137655FB2">
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_CompressFolder" aliasName="_CompressFolder" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void">
+            <param name="path" aliasName="path" paramType="System.String" isIn="False" isOut="False" position="0" />
+            <param name="zipStream" aliasName="zipStream" paramTypeAssembly="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73" paramType="ICSharpCode.SharpZipLib.Zip.ZipOutputStream" isIn="False" isOut="False" position="1" />
+            <param name="folderOffset" aliasName="folderOffset" paramType="System.Int32" isIn="False" isOut="False" position="2" />
+            <param name="zipFileName" aliasName="zipFileName" paramType="System.String" isIn="False" isOut="False" position="3" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="UnzipFile" aliasName="UnzipFile" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void">
+            <param name="zipFileName" aliasName="zipFileName" paramType="System.String" isIn="False" isOut="False" position="0" />
+            <param name="targetDir" aliasName="targetDir" paramType="System.String" isIn="False" isOut="False" position="1" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="UnzipFilePassword" aliasName="UnzipFilePassword" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void">
+            <param name="archiveFilenameIn" aliasName="archiveFilenameIn" paramType="System.String" isIn="False" isOut="False" position="0" />
+            <param name="password" aliasName="password" paramType="System.String" isIn="False" isOut="False" position="1" />
+            <param name="outFolder" aliasName="outFolder" paramType="System.String" isIn="False" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="ZipFile" aliasName="ZipFile" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void">
+            <param name="zipFileName" aliasName="zipFileName" paramType="System.String" isIn="False" isOut="False" position="0" />
+            <param name="password" aliasName="password" paramType="System.String" isIn="False" isOut="False" position="1" />
+            <param name="folderToZip" aliasName="folderToZip" paramType="System.String" isIn="False" isOut="False" position="2" />
+          </OpenSpan.DynamicMembers.DynamicMethodInfo>
+        </Items>
+      </Content>
+    </OpenSpan.Script.Custom.Script>
     <OpenSpan.Controls.FileUtils Name="fileUtils1" Id="FileUtils-8D65C31CB2AA4D3" />
+    <OpenSpan.Controls.Pause Name="pause1" Id="Pause-8D65C48C662036A" />
+    <OpenSpan.Controls.StringVariable Name="str_FDC_hist_filepath" Id="StringVariable-8D65F4AC0E2E26A">
+      <Value Value="" />
+    </OpenSpan.Controls.StringVariable>
+    <OpenSpan.Controls.StringVariable Name="str_FDC_hist_Url" Id="StringVariable-8D65F4BC64EFCF3">
+      <Value Value="" />
+    </OpenSpan.Controls.StringVariable>
   </Component>
 </OpenSpanDesignDocument>

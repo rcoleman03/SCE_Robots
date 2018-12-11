@@ -77,6 +77,10 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
@@ -104,6 +108,10 @@
     <Reference Include="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
     </Reference>
     <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
@@ -206,13 +214,17 @@
       <SubType>Component</SubType>
       <Id>GlobalContainer-8D659EE1BDFD27F</Id>
     </Compile>
-    <Compile Include="Procedures\Download_PlattsFDC_45Days.os">
-      <SubType>Component</SubType>
-      <Id>Automator-8D659EF6A19B071</Id>
+    <Compile Include="GC_Platts.scriptZipUnzip.cs">
+      <DependentUpon>GC_Platts.os</DependentUpon>
+      <Id>Script-8D65B7137655FB2</Id>
     </Compile>
     <Compile Include="Procedures\GetNextMth_FDC_TradingDays.os">
       <SubType>Component</SubType>
       <Id>Automator-8D65B5D843E072F</Id>
+    </Compile>
+    <Compile Include="Procedures\Get_Excel_FilePath.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D65F498256FFD0</Id>
     </Compile>
     <Compile Include="Procedures\Move_FDC_45DaysToDest.os">
       <SubType>Component</SubType>
@@ -221,10 +233,6 @@
     <Compile Include="Procedures\NavTo_Platts_FDC_45Days.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6593803807FA8</Id>
-    </Compile>
-    <Compile Include="Procedures\Unzip_FDC_Platts_45days.os">
-      <SubType>Component</SubType>
-      <Id>Automator-8D65B8C17A84F61</Id>
     </Compile>
     <Compile Include="Web_Platts.os">
       <SubType>Component</SubType>

@@ -274,6 +274,45 @@
                     </OpenSpan.Adapters.Web.TableSchema>
                   </Content>
                 </OpenSpan.Adapters.Web.Controls.Table>
+                <OpenSpan.Adapters.Web.Controls.Form Name="FramLogout" Id="Form-8D65EA4EAE52BD0">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ElementId Value="aspnetForm" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <MatchingIndex Value="0" />
+                  <TagName Value="FORM" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlFormElement, OpenSpan.Adapters.Web" />
+                  <UseElementId Value="True" />
+                  <Content Name="Controls">
+                    <Items>
+                      <OpenSpan.Adapters.Web.Controls.Link Name="LinkLogout" Id="Link-8D65EA4EABFD92C">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ElementId Value="ctl00_Profile1_lbLogout" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <MatchingIndex Value="2" />
+                        <TagName Value="A" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlAnchorElement, OpenSpan.Adapters.Web" />
+                        <UseElementId Value="True" />
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.MatchRules.ElementIdMatchRule Name="elementIdMatchRule7" Id="ElementIdMatchRule-8D65EA4EAF89928">
+                              <Text Value="Simple|True|(User Culture)|ctl00_Profile1_lbLogout" />
+                            </OpenSpan.Adapters.Web.MatchRules.ElementIdMatchRule>
+                            <OpenSpan.Adapters.Web.MatchRules.InnerHtmlMatchRule Name="innerHtmlMatchRule1" Id="InnerHtmlMatchRule-8D65EB437736395">
+                              <Text Value="Simple|True|(User Culture)|Logout" />
+                            </OpenSpan.Adapters.Web.MatchRules.InnerHtmlMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.Controls.Link>
+                    </Items>
+                  </Content>
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.MatchRules.ElementIdMatchRule Name="elementIdMatchRule6" Id="ElementIdMatchRule-8D65EA4EAF20584">
+                        <Text Value="Simple|True|(User Culture)|aspnetForm" />
+                      </OpenSpan.Adapters.Web.MatchRules.ElementIdMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.Controls.Form>
               </Items>
             </Content>
             <Content Name="MatchRules">
