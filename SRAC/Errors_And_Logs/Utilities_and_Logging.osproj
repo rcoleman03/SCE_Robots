@@ -77,9 +77,17 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
     </Reference>
     <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <Private>False</Private>
@@ -171,6 +179,10 @@
       <DependentUpon>GC_Errors_Logs.os</DependentUpon>
       <Id>Script-8D654591CD4B967</Id>
     </Compile>
+    <Compile Include="Get_Holidays.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D65F4C4A27170F</Id>
+    </Compile>
     <Compile Include="Get_ReferenceData.os">
       <SubType>Component</SubType>
       <Id>Automator-8D655118903DA95</Id>
@@ -178,6 +190,10 @@
     <Compile Include="Handle_Exception.os">
       <SubType>Component</SubType>
       <Id>Automator-8D6544C6D674CF5</Id>
+    </Compile>
+    <Compile Include="LastMonths_TradingDays.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D65F4927D398D7</Id>
     </Compile>
   </ItemGroup>
 </Project>

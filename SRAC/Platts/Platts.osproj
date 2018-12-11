@@ -206,10 +206,6 @@
       <SubType>Component</SubType>
       <Id>GlobalContainer-8D659EE1BDFD27F</Id>
     </Compile>
-    <Compile Include="GC_Platts.scriptZipUnzip.cs">
-      <DependentUpon>GC_Platts.os</DependentUpon>
-      <Id>Script-8D65B7137655FB2</Id>
-    </Compile>
     <Compile Include="Procedures\Download_PlattsFDC_45Days.os">
       <SubType>Component</SubType>
       <Id>Automator-8D659EF6A19B071</Id>

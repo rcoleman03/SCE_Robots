@@ -1167,7 +1167,7 @@
                 <OpenSpan.Adapters.Web.MatchRules.DocumentUrlMatchRule Name="documentUrlMatchRule1" Id="DocumentUrlMatchRule-8D65546902EF422">
                   <Fragment Value="Simple|True|(User Culture)|" />
                   <Host Value="Simple|True|(User Culture)|risk.kiodex.com" />
-                  <Path Value="StartsWith|True|(User Culture)|/" />
+                  <Path Value="StartsWith|True|(User Culture)|" />
                   <Port Value="443" />
                   <Query Value="Simple|True|(User Culture)|" />
                   <Scheme Value="Simple|True|(User Culture)|https" />

@@ -1,7 +1,0 @@
-<Cache>
-  <Project configuration="" />
-  <DesignComponents>
-    <DesignComponent id="Automator-8D655118903DA95" className="Get_ReferenceData" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D6544C6D674CF5" className="Handle_Exception" type="Automation" isPublic="True" screenShots="" />
-  </DesignComponents>
-</Cache>

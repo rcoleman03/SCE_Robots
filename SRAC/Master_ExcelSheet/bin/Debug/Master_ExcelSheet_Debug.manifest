@@ -1,9 +1,0 @@
-<DeploymentManifest version="5.0">
-  <CompositeStudioProject name="Master_ExcelSheet" fileName="Master_ExcelSheet.dll" assemblyName="Master_ExcelSheet.dll" id="Project-8D6544EF4F9AEF0" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="0577B864ED06263CB790E665DD4111">
-    <Assemblies>
-      <Assembly value="Master_ExcelSheet.dll" digest="5093B57956518310A868396ACE22AE" />
-      <Assembly value="Master_ExcelSheet.pdb" digest="B24EA0C7EDADAD915632B01276680D" />
-      <Assembly value="Errors_And_Logs.dll" digest="7F2ECE8E7DE2BEEFC05B8BAE9EDAE0" />
-    </Assemblies>
-  </CompositeStudioProject>
-</DeploymentManifest>

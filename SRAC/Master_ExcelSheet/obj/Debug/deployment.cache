@@ -1,8 +1,0 @@
-<Cache>
-  <References>
-    <Reference value="..\Errors_And_Logs\bin\Debug\Errors_And_Logs.dll" />
-  </References>
-  <BuildReferences>
-    <BuildReference value="RuntimeConfig.xml" />
-  </BuildReferences>
-</Cache>

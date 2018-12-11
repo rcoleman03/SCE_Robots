@@ -1,5 +1,9 @@
 <Project>
   <Preferences>
-    <ComponentTraySettings GroupBy="-1" View="List" />
+    <ComponentTraySettings GroupBy="-1" View="List">
+      <Automator-8D655118903DA95 Height="130" />
+      <Automator-8D65F4C4A27170F Height="62" />
+      <Automator-8D65F4927D398D7 Height="50" />
+    </ComponentTraySettings>
   </Preferences>
 </Project>

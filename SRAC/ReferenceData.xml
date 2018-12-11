@@ -12,7 +12,7 @@
 	<G-MSUR_URL>https://socalgas.com/regulatory/tariffs/tm2/pdf/G-MSUR.pdf</G-MSUR_URL>
 	<GT-TLS_URL>https://socalgas.com/regulatory/tariffs/tm2/pdf/GT-TLS.pdf</GT-TLS_URL>
 
-	<TradingDaysPath>C:\Robot_Reference_Data\SRAC\TradingDays.txt</TradingDaysPath>
+	<HolidaysPath>C:\Robot_Reference_Data\SRAC\Holidays.txt</HolidaysPath>
 	<KiodexDownloads>C:\Robot_Reference_Data\SRAC\Kiodex</KiodexDownloads>
 
 </Root>
