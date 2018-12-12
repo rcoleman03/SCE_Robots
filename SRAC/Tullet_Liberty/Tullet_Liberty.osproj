@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProductVersion>8.0</ProductVersion>
+    <ProductVersion>8.1</ProductVersion>
     <ProjectGuid>b6457ca4-2896-4371-94c2-a2a91728d8ea</ProjectGuid>
     <RootNamespace>Tullet_Liberty</RootNamespace>
     <AssemblyName>Tullet_Liberty</AssemblyName>
@@ -15,8 +15,8 @@
     <!-- Custom properties -->
     <Name>Tullet_Liberty</Name>
     <Id>Project-8D65F471AFC10A0</Id>
-    <Version>8.0.1082.0</Version>
-    <TransformationVersion>8.0.1026.0</TransformationVersion>
+    <Version>8.0.2014.0</Version>
+    <TransformationVersion>8.0.2000.3</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
     <StartupForm>
@@ -25,7 +25,9 @@
     <!-- Deployment -->
     <DeploymentFiles>
     </DeploymentFiles>
-    <CustomUpgradeVersion>0.0</CustomUpgradeVersion>
+    <CustomUpgradeVersion>
+    </CustomUpgradeVersion>
+    <InteractionConfigurationFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -77,16 +79,8 @@
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSpan.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
-      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+    <Reference Include="OpenSpan.Controls">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Controls.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="OpenSpan.NativeInterop, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
-      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.NativeInterop.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -112,6 +106,42 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Pega.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Scout.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Scout.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Ipc.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Ipc.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.SharedMemory.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.SharedMemory.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Utilities.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Utilities.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.WinQueue.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.WinQueue.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Scout.Remoting.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Scout.Remoting.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Service.Remoting">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Service.Remoting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pega.Windows.Broker.Interop">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Pega.Windows.Broker.Interop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
@@ -135,6 +165,10 @@
     <Compile Include="AccessDB_Test.os">
       <SubType>Component</SubType>
       <Id>Automator-8D65F476EFCE578</Id>
+    </Compile>
+    <Compile Include="GC_TulletLiberty.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D660254CF12BBF</Id>
     </Compile>
   </ItemGroup>
 </Project>
