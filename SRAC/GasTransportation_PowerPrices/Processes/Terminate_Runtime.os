@@ -21,8 +21,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D6545F76750304\EntryPoint-8D6545F786AE6F5" />
-            <Left Value="103" />
-            <Top Value="82" />
+            <Left Value="106" />
+            <Top Value="84" />
             <PartID Value="1" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -42,16 +42,18 @@
             <From PartID="1" PortName="Complete" PortType="Event" ConnectableId="Automator-8D6545F76750304\EntryPoint-8D6545F786AE6F5" MemberComponentId="Automator-8D6545F76750304\EntryPoint-8D6545F786AE6F5" />
             <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D6545F76750304\ConnectableMethod-8D6545F7E4B7E77" MemberComponentId="Automator-8D6545F76750304\ConnectableMethod-8D6545F7E4B7E77" />
             <LinkPoints>
-              <Point value="242, 98" />
-              <Point value="252, 98" />
-              <Point value="294, 98" />
-              <Point value="294, 120" />
-              <Point value="335, 120" />
-              <Point value="345, 120" />
+              <Point value="217, 102" />
+              <Point value="227, 102" />
+              <Point value="281, 102" />
+              <Point value="281, 109" />
+              <Point value="335, 109" />
+              <Point value="345, 109" />
             </LinkPoints>
           </Link>
         </Links>
-        <Comments />
+        <Comments>
+          <Comment Text="Call this automation at the end of execution to gracefully end the Runtime host" PartID="4" Position="116, 198" UnanchoredOffset="-30, -30" BaseWidth="30" />
+        </Comments>
         <SubGraphs />
       </AutomationDocument>
       <Content Name="DynamicMembers">

@@ -75,6 +75,10 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Interop.FREngine, Version=12.2.27.1, Culture=neutral, PublicKeyToken=2e1e7aca5d298f96">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Interop.FREngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
       <Private>False</Private>
@@ -93,6 +97,10 @@
     <Reference Include="OpenSpan.Automation">
       <Private>False</Private>
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Controls.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.ExpressTranslators">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ExpressTranslators.dll</HintPath>
@@ -179,6 +187,10 @@
     <Compile Include="GC_MasterExcel.os">
       <SubType>Component</SubType>
       <Id>GlobalContainer-8D6544EFF0F0A35</Id>
+    </Compile>
+    <Compile Include="temp.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D66045B40A47F1</Id>
     </Compile>
   </ItemGroup>
   <ItemGroup>

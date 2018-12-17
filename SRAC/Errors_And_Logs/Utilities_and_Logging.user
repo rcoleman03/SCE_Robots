@@ -2,7 +2,7 @@
   <Preferences>
     <ComponentTraySettings GroupBy="-1" View="List">
       <Automator-8D655212BA5FD1C Height="130" />
-      <Automator-8D653BA55CEFE78 Height="51" />
+      <Automator-8D653BA55CEFE78 Height="130" />
       <Automator-8D65453072FB62D Height="130" />
       <Automator-8D65475F752FE4A Height="55" />
       <Automator-8D65452F5DF5A68 Height="79" />
@@ -13,6 +13,11 @@
       <Automator-8D655E155971756 Height="130" />
       <Automator-8D65F4C4A27170F Height="130" />
       <Automator-8D65F4927D398D7 Height="51" />
+      <Automator-8D6545F76750304 Height="130" />
+      <Automator-8D655DCD5EA9761 Height="130" />
+      <Automator-8D65F476EFCE578 Height="130" />
+      <Automator-8D6544C6D674CF5 Height="130" />
+      <Automator-8D664019AA22CCF Height="130" />
     </ComponentTraySettings>
   </Preferences>
 </Project>

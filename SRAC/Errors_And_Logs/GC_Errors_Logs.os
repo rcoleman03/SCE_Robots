@@ -67,5 +67,8 @@
       <Value Value="C:\Robot_Reference_Data\SRAC" />
     </OpenSpan.Controls.StringVariable>
     <OpenSpan.Controls.DateTimeUtil Name="dateTimeUtil1" Id="DateTimeUtil-8D65F497C2D3312" />
+    <OpenSpan.Controls.StringVariable Name="strLogFilePath" Id="StringVariable-8D6640122EA134E">
+      <Value Value="" />
+    </OpenSpan.Controls.StringVariable>
   </Component>
 </OpenSpanDesignDocument>

@@ -75,6 +75,10 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Interop.FREngine, Version=12.2.27.1, Culture=neutral, PublicKeyToken=2e1e7aca5d298f96">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\Interop.FREngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\log4net.dll</HintPath>
       <Private>False</Private>
@@ -224,6 +228,10 @@
     <Compile Include="LastMonth_TradingDays.os">
       <SubType>Component</SubType>
       <Id>Automator-8D65F4927D398D7</Id>
+    </Compile>
+    <Compile Include="Log_Message.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D664019AA22CCF</Id>
     </Compile>
   </ItemGroup>
 </Project>
