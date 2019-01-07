@@ -1,7 +1,0 @@
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\bin\Debug\RuntimeConfig.xml
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\bin\Debug\Errors_And_Logs.dll
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\bin\Debug\Errors_And_Logs.pdb
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\obj\Debug\ImportTypeMap.resources
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\obj\Debug\Errors_And_Logs.osproj.GenerateResource.Cache
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\obj\Debug\Errors_And_Logs.dll
-C:\Users\tandonp\Documents\Pega Robotics Studio\Projects\GasTransportation_PowerPrices\Errors_And_Logs\obj\Debug\Errors_And_Logs.pdb
